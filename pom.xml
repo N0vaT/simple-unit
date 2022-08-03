@@ -31,6 +31,7 @@
         <spring.version>5.3.20</spring.version>
         <spring-data.version>2.7.0</spring-data.version>
         <jackson.version>2.13.3</jackson.version>
+        <commons-fileupload.version>1.4</commons-fileupload.version>
     </properties>
 
     <dependencies>
@@ -87,6 +88,12 @@
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>${commons-fileupload.version}</version>
         </dependency>
 
     </dependencies>
